@@ -9,6 +9,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -21,6 +27,8 @@
     width: 150px;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    max-width: 100%;
+    text-align: center;
 }
 
 .side-container .p-img img {
@@ -38,10 +46,8 @@
     vertical-align: middle;
     margin-bottom: 1rem;
     position: relative;
-    max-width: 184px;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
-    margin-left: 14px;
 }
 .s-heading .s-heading h1 {
     font-size: 1.625rem;
@@ -127,10 +133,11 @@
     margin-top: 20px;
 }
 
-.navigate-icons i:not(:first-child) {
+.navigate-icons a:not(:first-child) {
     margin-left: 20px;
 }
 
-.navigate-icons i {
+.navigate-icons a {
     font-size: 25px;
+    color: #fff;
 }

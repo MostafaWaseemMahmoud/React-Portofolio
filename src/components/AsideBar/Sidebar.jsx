@@ -5,6 +5,8 @@ const SideBar = () => {
     <div className="sideBar">
         <div className="side-container">
             <div className="info">
+                <div className="info-content">
+
             <div className="p-img">
                 <img src="src/assets/PersonalPic(1).jpeg" alt="sas" />
             </div>
@@ -15,6 +17,7 @@ const SideBar = () => {
                 <div className='badge'>Mern Stack</div>
             </div>
             </div>
+                </div>
             <div className="additional-info">
                 <div className="separator">
                 </div>
@@ -53,8 +56,12 @@ const SideBar = () => {
             </div>
 
             <div className="navigate-icons">
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
+                <a href="https://github.com/MostafaWaseemMahmoud/">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mostafa-waseem-224aa6312/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
             </div>
 
         </div>

@@ -31,6 +31,11 @@
     --color-accent: #FFDB6E;
     --color-error: #B84C4C;;
     --color-gient-gray: linear-gradient(137.84deg, #3F3F40 2.69%, #303030 93.75%);
+    --color-gradient: linear-gradient(137.84deg, #FFDB6E 26.31%, #FFBC5E 93.75%);
+    --color-gradient-border-gray: linear-gradient(135deg, #404040 0%, rgba(64, 64, 64, 0) 48.44%);
+    --color-btn: linear-gradient(135deg, rgba(45, 45, 46, 0.25) 0%, rgba(27, 27, 28, 0) 100%), #202021;
+    --color-gradient-soft: linear-gradient(135deg, rgba(255, 218, 109, 0.0375) 0%, rgba(255, 189, 94, 0) 100%), #1E1E1F;
+
     --box-shadow-24: -4px 8px 24px rgba(0, 0, 0, 0.25);
     --box-shadow-30: 0px 16px 30px rgba(0, 0, 0, 0.25);
     --box-shadow-40: 0px 16px 40px rgba(0, 0, 0, 0.25);
@@ -45,7 +50,7 @@
     --radius-8: 8px;
 
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-    --padding: 3.75rem 500px;
+    --padding: 3.75rem 300px;
 }
 
 * {

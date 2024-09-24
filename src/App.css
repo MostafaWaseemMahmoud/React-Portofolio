@@ -1,3 +1,4 @@
 .container {
     margin: var(--padding);
+    display: flex;
 }
