@@ -82,6 +82,175 @@ const Main = () => {
           </div>
         </div>
       </div>
+
+      <div className="projects">
+        <div className="project-heading --seprator">
+          <h1 className="heading">Projects</h1>
+        </div>
+        <div className="projects-cards">
+        <div className="card project-card">
+              <div className="card-img">
+                <img src="src/assets/Chat Application.png" alt="" />
+              </div>
+              <div className="card-txt">
+                <div className="title">
+                  <h1>Chat Application</h1>
+                </div>
+                <div className="card-description">
+                  <p>(HTML,CSS,VanillaJs)</p>
+                  <p>(NodeJs,Express,MongoDB)</p>
+                  <div className="links">
+
+                  <h3>
+                  <a target='_blank' href="https://youtu.be/gAKsZvU4G-g?si=yPN4eXEhEYLnBD63">
+                  <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  </h3>
+                  <h3>
+                  </h3>
+                  </div>
+                </div>
+              </div>
+          </div>
+        <div className="card project-card">
+              <div className="card-img">
+                <img src="src/assets/covid-19.png" alt="" />
+              </div>
+              <div className="card-txt">
+                <div className="title">
+                  <h1>Kovid-19 Application</h1>
+                </div>
+                <div className="card-description">
+                  <p>(React, Css, ReactIcons)</p>
+                  <div className="links">
+
+                  <h3>
+                  <a target='_blank' href="https://github.com/MostafaWaseemMahmoud/Kovid-App">
+                  <i class="fa-brands fa-github"></i>
+                  </a>
+                  </h3>
+                  <h3>
+                    <a target='_blank' href="https://kovid-app.netlify.app/">
+                    <i class="fa-solid fa-life-ring"></i></a>
+                  </h3>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+        <div className="card project-card">
+              <div className="card-img">
+                <img src="src/assets/EmailSender.png" alt="" />
+              </div>
+              <div className="card-txt">
+                <div className="title">
+                  <h1>Send Email Application</h1>
+                </div>
+                <div className="card-description">
+                  <p>(React, EmailJs)</p>
+                  <div className="links">
+                  <h3>
+                  <a target='_blank' href="https://github.com/MostafaWaseemMahmoud/Send-Email-With-React">
+                  <i class="fa-brands fa-github"></i>
+                  </a>
+                  </h3>
+                  <h3>
+                    <a target='_blank' href="https://send-email-with-react.netlify.app/">
+                    <i class="fa-solid fa-life-ring"></i></a>
+                  </h3>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div className="card project-card">
+              <div className="card-img">
+                <img src="src/assets/Mobilexx.png" alt="" />
+              </div>
+              <div className="card-txt">
+                <div className="title">
+                  <h1>Mobile Shop Application</h1>
+                </div>
+                <div className="card-description">
+                  <p>(HtMl,Css,VanillaJs)</p>
+                  <div className="links">
+                  <h3>
+                  <a target='_blank' href="https://mobilexx-v2.netlify.app/">
+                    <i class="fa-solid fa-life-ring"></i>
+                  </a>
+                  </h3>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+        <div className="card project-card">
+              <div className="card-img">
+                <img src="src/assets/Authrization Application.png" alt="" />
+              </div>
+              <div className="card-txt">
+                <div className="title">
+                  <h1>Authrization Application</h1>
+                </div>
+                <div className="card-description">
+                  <p>(ReactJs, Auth0, Vite)</p>
+                  <div className="links">
+                  <h3>
+                  <a target='_blank' href="https://github.com/MostafaWaseemMahmoud/Authrization-With-React">
+                  <i class="fa-brands fa-github"></i>
+                  </a>
+                  </h3>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div className="card project-card">
+              <div className="card-img">
+                <img src="src/assets/TomatoApi.png" alt="" />
+              </div>
+              <div className="card-txt">
+                <div className="title">
+                  <h1>Tomato BackEnd Application</h1>
+                </div>
+                <div className="card-description">
+                  <p>(NodeJs,Express,MongoDb)</p>
+                  <div className="links">
+                  <h3>
+                  <a target='_blank' href="https://github.com/MostafaWaseemMahmoud/Tomato-Api">
+                  <i class="fa-brands fa-github"></i>
+                  </a>
+                  </h3>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div className="card project-card">
+              <div className="card-img">
+                <img src="src/assets/FaceBook.png" alt="" />
+              </div>
+              <div className="card-txt">
+                <div className="title">
+                  <h1>FaceBook Full Small Application</h1>
+                </div>
+                <div className="card-description">
+                  <p>(ReactJs)</p>
+                  <p>(NodeJs,Express,MongoDb)</p>
+                  <div className="links">
+                  <h3>
+                  <a target='_blank' href="https://github.com/MostafaWaseemMahmoud/FaceBook-React">
+                  <i class="fa-brands fa-github"></i>
+                  </a>
+                  </h3>
+                  </div>
+                </div>
+              </div>
+        </div>
+        </div>
+      </div>
     </div>
   );
 };
