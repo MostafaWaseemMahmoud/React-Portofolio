@@ -7,5 +7,6 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',  // Allows the server to listen on all network interfaces
     port: 5173,       // You can specify the port if you want
-  }
+  },
+  base: '/React-Portofolio/',
 })
