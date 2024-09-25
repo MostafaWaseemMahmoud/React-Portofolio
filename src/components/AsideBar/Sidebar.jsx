@@ -8,7 +8,7 @@ const SideBar = () => {
                 <div className="info-content">
 
             <div className="p-img">
-                <img src="src/assets/PersonalPic(1).jpeg" alt="sas" />
+                <img src="https://i.ibb.co/McpVbFb/Whats-App-Image-2024-09-07-at-10-47-23-PM.jpg" alt="sas" />
             </div>
             <div className='s-heading'>
                 <h3>
