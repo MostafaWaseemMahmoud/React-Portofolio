@@ -90,7 +90,7 @@ const Main = () => {
         <div className="projects-cards">
         <div className="card project-card">
               <div className="card-img">
-                <img src="/assets/Chat Application.png" alt="" />
+                <img src="public/Chat Application.png" alt="" />
               </div>
               <div className="card-txt">
                 <div className="title">
@@ -114,7 +114,7 @@ const Main = () => {
           </div>
         <div className="card project-card">
               <div className="card-img">
-                <img src="/assets/covid-19.png" alt="" />
+                <img src="public/covid-19.png" alt="" />
               </div>
               <div className="card-txt">
                 <div className="title">
@@ -141,7 +141,7 @@ const Main = () => {
 
         <div className="card project-card">
               <div className="card-img">
-                <img src="/assets/EmailSender.png" alt="" />
+                <img src="public/EmailSender.png" alt="" />
               </div>
               <div className="card-txt">
                 <div className="title">
@@ -166,7 +166,7 @@ const Main = () => {
 
         <div className="card project-card">
               <div className="card-img">
-                <img src="/assets/Mobilexx.png" alt="" />
+                <img src="public/Mobilexx.png" alt="" />
               </div>
               <div className="card-txt">
                 <div className="title">
@@ -188,7 +188,7 @@ const Main = () => {
 
         <div className="card project-card">
               <div className="card-img">
-                <img src="/assets/Authrization Application.png" alt="" />
+                <img src="public/Authrization Application.png" alt="" />
               </div>
               <div className="card-txt">
                 <div className="title">
@@ -209,7 +209,7 @@ const Main = () => {
 
         <div className="card project-card">
               <div className="card-img">
-                <img src="/assets/TomatoApi.png" alt="" />
+                <img src="public/TomatoApi.png" alt="" />
               </div>
               <div className="card-txt">
                 <div className="title">
@@ -230,7 +230,7 @@ const Main = () => {
 
         <div className="card project-card">
               <div className="card-img">
-                <img src="/assets/FaceBook.png" alt="" />
+                <img src="public/FaceBook.png" alt="" />
               </div>
               <div className="card-txt">
                 <div className="title">
