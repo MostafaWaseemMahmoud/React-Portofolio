@@ -117,17 +117,6 @@ const Main = () => {
                   </ul>
               </div>
             </div>
-          <div className="card">
-              <div className="card-heading">
-                <div className="icon"><img src="https://mostfasyntax.com/storage/categories/GO5Z8lCzgy2stm59pi16ETKVcZDwoNBxdxk0Wri1.svg" alt="" /></div>
-                <div className="title"><h1>CSS FRAMEWORK</h1></div>
-              </div>
-              <div className="card-skills">
-                  <ul>
-                    <li>BootStrap</li>
-                  </ul>
-              </div>
-            </div>
           </div>
         </div>
       </div>
