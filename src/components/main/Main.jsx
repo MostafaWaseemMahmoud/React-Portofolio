@@ -8,7 +8,7 @@ const Main = () => {
       </div>
 
       <div className="main-description">
-        <p>Hello, my name is Mostafa Waseem Mahmoud, and I am a 13-year-old MERN Stack web developer. Despite my young age, I have a solid understanding of full-stack web development using the MERN Stack, which includes MongoDB, Express.js, React.js, and Node.js. I have hands-on experience in building dynamic and responsive web applications, from back-end server setups to front-end user interfaces. I am passionate about coding and continuously learning new technologies to enhance my skills. My goal is to create efficient, scalable, and user-friendly applications that solve real-world problems And I Got Cs50 Course With <a href="ttps://certificates.cs50.io/f3fb964f-d41c-420c-add6-123a62074e14.pdf?size=letter" target='_blank'>certifcate</a>.</p>
+        <p>Hello, my name is Mostafa Waseem Mahmoud, and I am a 13-year-old MERN Stack web developer. I have a solid understanding of full-stack web development using the MERN Stack, which includes MongoDB, Express.js, React.js, and Node.js. I have hands-on experience in building dynamic and responsive web applications, from back-end server setups to front-end user interfaces. I am passionate about coding and continuously learning new technologies to enhance my skills. My goal is to create efficient, scalable, and user-friendly applications that solve real-world problems And I Got Cs50 Course With <a href="ttps://certificates.cs50.io/f3fb964f-d41c-420c-add6-123a62074e14.pdf?size=letter" target='_blank'>certifcate</a>.</p>
       </div>
 
       <div className="my-skills">
@@ -36,13 +36,11 @@ const Main = () => {
             <div className="card">
               <div className="card-heading">
                 <div className="icon"><img src="https://mostfasyntax.com/storage/categories/UmX2rgsQTiN7xFLBMGBfoxJx7X9CKGDElSwxrad2.svg" alt="" /></div>
-                <div className="title"><h1>Languages</h1></div>
+                <div className="title"><h1>LANGUAGE</h1></div>
               </div>
               <div className="card-skills">
                   <ul>
-                    <li>Html/Css</li>
-                    <li>Scss</li>
-                    <li>VanillaJs</li>
+                    <li>JavaScipt</li>
                   </ul>
               </div>
             </div>
@@ -54,15 +52,12 @@ const Main = () => {
             <div className="card">
               <div className="card-heading">
                 <div className="icon"><img src="https://mostfasyntax.com/storage/categories/GO5Z8lCzgy2stm59pi16ETKVcZDwoNBxdxk0Wri1.svg" alt="" /></div>
-                <div className="title"><h1>Libraries</h1></div>
+                <div className="title"><h1>Frameworks</h1></div>
               </div>
               <div className="card-skills">
                   <ul>
                     <li>React</li>
-                    <li>NodeJs</li>
                     <li>Express</li>
-                    <li>BootStrap</li>
-                    <li>Multer</li>
                   </ul>
               </div>
             </div>
@@ -76,6 +71,60 @@ const Main = () => {
                   <ul>
                     <li>MongoDb</li>
                     <li>Mongoose</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="column">
+          <div className="card">
+              <div className="card-heading">
+                <div className="icon"><img src="https://mostfasyntax.com/storage/categories/GO5Z8lCzgy2stm59pi16ETKVcZDwoNBxdxk0Wri1.svg" alt="" /></div>
+                <div className="title"><h1>PACKAGE MANAGER</h1></div>
+              </div>
+              <div className="card-skills">
+                  <ul>
+                    <li>Npm</li>
+                    <li>NodeJs</li>
+                  </ul>
+              </div>
+            </div>
+
+          <div className="card">
+              <div className="card-heading">
+                <div className="icon"><img src="https://mostfasyntax.com/storage/categories/GO5Z8lCzgy2stm59pi16ETKVcZDwoNBxdxk0Wri1.svg" alt="" /></div>
+                <div className="title"><h1>Markup Styling Language</h1></div>
+              </div>
+              <div className="card-skills">
+                  <ul>
+                    <li>Html</li>
+                    <li>Css</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="column">
+          <div className="card">
+              <div className="card-heading">
+                <div className="icon"><img src="https://mostfasyntax.com/storage/categories/GO5Z8lCzgy2stm59pi16ETKVcZDwoNBxdxk0Wri1.svg" alt="" /></div>
+                <div className="title"><h1>VERSION CONTROL</h1></div>
+              </div>
+              <div className="card-skills">
+                  <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                  </ul>
+              </div>
+            </div>
+          <div className="card">
+              <div className="card-heading">
+                <div className="icon"><img src="https://mostfasyntax.com/storage/categories/GO5Z8lCzgy2stm59pi16ETKVcZDwoNBxdxk0Wri1.svg" alt="" /></div>
+                <div className="title"><h1>CSS FRAMEWORK</h1></div>
+              </div>
+              <div className="card-skills">
+                  <ul>
+                    <li>BootStrap</li>
                   </ul>
               </div>
             </div>
@@ -195,7 +244,7 @@ const Main = () => {
                   <h1>Authrization Application</h1>
                 </div>
                 <div className="card-description">
-                  <p>(NodeJs,Express,MongoDb)</p>
+                  <p>(ReactJs, Auth0)</p>
                   <div className="links">
                   <h3>
                   <a target='_blank' href="https://github.com/MostafaWaseemMahmoud/Authrization-With-React">
