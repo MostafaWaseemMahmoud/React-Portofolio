@@ -167,7 +167,7 @@ const Main = () => {
                   <a target='_blank' href="https://github.com/MostafaWaseemMahmoud/Socail-Media-Application-F-End">
                   <i class="fa-brands fa-github"></i>
                   </a>
-                  <a target='_blank' href="https://socialmedia-application1.netlify.app/">
+                  <a target='_blank' href="https://socail-media-application-f-end.vercel.app/">
                     <i class="fa-solid fa-life-ring"></i>
                   </a>
                   </h3>
