@@ -58,6 +58,7 @@ const Main = () => {
                   <ul>
                     <li>React</li>
                     <li>Express</li>
+                    <li>Flask</li>
                   </ul>
               </div>
             </div>
@@ -71,6 +72,7 @@ const Main = () => {
                   <ul>
                     <li>MongoDb</li>
                     <li>Mongoose</li>
+                    <li>SQl</li>
                   </ul>
               </div>
             </div>
@@ -114,6 +116,18 @@ const Main = () => {
                   <ul>
                     <li>Git</li>
                     <li>GitHub</li>
+                  </ul>
+              </div>
+            </div>
+
+          <div className="card">
+              <div className="card-heading">
+                <div className="icon"><img src="https://mostfasyntax.com/storage/categories/GO5Z8lCzgy2stm59pi16ETKVcZDwoNBxdxk0Wri1.svg" alt="" /></div>
+                <div className="title"><h1>Devops</h1></div>
+              </div>
+              <div className="card-skills">
+                  <ul>
+                    <li>Jenkins</li>
                   </ul>
               </div>
             </div>
