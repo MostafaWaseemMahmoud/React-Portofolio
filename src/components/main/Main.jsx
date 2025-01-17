@@ -142,6 +142,33 @@ const Main = () => {
         <div className="projects-cards">
         <div className="card project-card">
               <div className="card-img">
+                <img src="https://i.ibb.co/k1MzF6N/Prescripto-Application.png" alt="" />
+              </div>
+              <div className="card-txt">
+                <div className="title">
+                  <h1>Prescripto Application</h1>
+                </div>
+                <div className="card-description">
+                  <p>(ReactJs)</p>
+                  <p>(NodeJs,Express,MongoDB,Multer,CloudInary)</p>
+                  <div className="links">
+                  <h3>
+                  <a target='_blank' href="https://github.com/MostafaWaseemMahmoud/Prescripto">
+                  <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a target='_blank' href="https://prescripto-a.netlify.app">
+                    <i class="fa-solid fa-life-ring"></i>
+                  </a>
+                  </h3>
+                  <h3>
+                  </h3>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+        <div className="card project-card">
+              <div className="card-img">
                 <img src="https://i.ibb.co/P5z4rPt/Chat-Application.png" alt="" />
               </div>
               <div className="card-txt">
