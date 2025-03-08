@@ -142,7 +142,7 @@ const Main = () => {
         <div className="projects-cards">
         <div className="card project-card">
               <div className="card-img">
-                <img src="./pic.png" alt="" />
+                <img src="https://i.ibb.co/Df1FWvZC/pic.png" alt="" />
               </div>
               <div className="card-txt">
                 <div className="title">
