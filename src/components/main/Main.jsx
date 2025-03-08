@@ -142,6 +142,30 @@ const Main = () => {
         <div className="projects-cards">
         <div className="card project-card">
               <div className="card-img">
+                <img src="https://i.ibb.co/h2sLxX2/Authrization-Application.png" alt="" />
+              </div>
+              <div className="card-txt">
+                <div className="title">
+                  <h1>E-commerce Application</h1>
+                </div>
+                <div className="card-description">
+                  <p>(ReactJs, PaymentStripe, threeJs)</p>
+                  <p>(NodeJs, MongoDB)</p>
+                  <div className="links">
+                  <h3>
+                  <a target='_blank' href="https://github.com/MostafaWaseemMahmoud/Authrization-With-React">
+                  </a>
+                  <i class="fa-brands fa-github"></i>
+                  </h3>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+
+        <div className="card project-card">
+              <div className="card-img">
                 <img src="https://i.ibb.co/k1MzF6N/Prescripto-Application.png" alt="" />
               </div>
               <div className="card-txt">
@@ -157,7 +181,7 @@ const Main = () => {
                   <i class="fa-brands fa-github"></i>
                   </a>
                   <a target='_blank' href="https://prescripto-a.netlify.app">
-                    <i class="fa-solid fa-life-ring"></i>
+                    <i class="fa-solid fa-life-ring"></i>   
                   </a>
                   </h3>
                   <h3>
