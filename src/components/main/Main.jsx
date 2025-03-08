@@ -142,7 +142,7 @@ const Main = () => {
         <div className="projects-cards">
         <div className="card project-card">
               <div className="card-img">
-                <img src="https://i.ibb.co/h2sLxX2/Authrization-Application.png" alt="" />
+                <img src="./pic.png" alt="" />
               </div>
               <div className="card-txt">
                 <div className="title">
@@ -153,9 +153,17 @@ const Main = () => {
                   <p>(NodeJs, MongoDB)</p>
                   <div className="links">
                   <h3>
-                  <a target='_blank' href="https://github.com/MostafaWaseemMahmoud/Authrization-With-React">
-                  </a>
+                  <a target='_blank' href="https://github.com/MostafaWaseemMahmoud/E-Commerce-App">
                   <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a target='_blank' href="https://github.com/MostafaWaseemMahmoud/E-commerce-backend">
+                  <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a target='_blank' href="https://lumeo-e-commerce.vercel.app/">
+                    <i class="fa-solid fa-life-ring"></i>   
+                  </a>
+                  </h3>
+                  <h3>
                   </h3>
                   </div>
                 </div>
