@@ -21,13 +21,13 @@ const Projects = ()=> {
                   <div className="links">
                   <h3>
                   <a target='_blank' href="https://github.com/MostafaWaseemMahmoud/E-Commerce-App">
-                  <i class="fa-brands fa-github"></i>
+                  <i className="fa-brands fa-github"></i>
                   </a>
                   <a target='_blank' href="https://github.com/MostafaWaseemMahmoud/E-commerce-backend">
-                  <i class="fa-brands fa-github"></i>
+                  <i className="fa-brands fa-github"></i>
                   </a>
                   <a target='_blank' href="https://lumeo-e-commerce.vercel.app/">
-                    <i class="fa-solid fa-life-ring"></i>   
+                    <i className="fa-solid fa-life-ring"></i>   
                   </a>
                   </h3>
                   <h3>

@@ -11,6 +11,7 @@
   top: 0;
   left: -100%; /* Hidden off-screen */
   transition: left 0.3s ease; /* Smooth transition */
+  z-index: 3;
 }
 
 /* Show sidebar when 'show' class is added */
@@ -92,6 +93,16 @@
   color: #ffd700;
 }
 
+.menu-btn-1 {
+    z-index: 3;
+        margin-left: 20px;
+    margin-top: 20px;
+    border: 0;
+  color: #ffd700;
+  background-color: transparent;
+  font-size: 40px;
+}
+
 /* Mobile responsiveness */
 @media (max-width: 508px) {
   .sidebar {
@@ -101,15 +112,9 @@
     left: 0; /* Bring sidebar into view on mobile */
   }
 
-  .menu-btn {
+  .menu-btn-1 {
     position: absolute;
     display: block;
-    margin-left: 20px;
-    margin-top: 20px;
     cursor: pointer;
-        background-color: #ffd700;
-    color: #115173;
-    font-size: 24px; /* Adjust the size of the button */
-    z-index: 3;
   }
 }
