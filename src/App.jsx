@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Sidebar from './components/Sidebar/Sidebar'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Main from './components/home/Main'
+import Main from './components/Home/Main'
 import About from "./components/About/About.jsx"
 import Skills from "./components/skills/Skills.jsx"
 import Projects from './components/projects/Projects.jsx'
