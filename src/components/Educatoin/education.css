@@ -79,6 +79,7 @@
   font-style: italic;
 }
 
+
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
   .education-title {

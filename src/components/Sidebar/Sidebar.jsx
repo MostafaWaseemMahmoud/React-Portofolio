@@ -7,8 +7,9 @@ const Sidebar = () => {
   const SideBar = useRef();
 
   useEffect(() => {
-    SideBar.current.style.left=0;
-    SideBar.current.style.top=0;
+      if (SideBar.current) {
+    SideBar.current.classList.add("show");
+  }
   }, []);
 
   const menuItems = [

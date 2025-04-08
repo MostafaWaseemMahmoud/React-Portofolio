@@ -47,7 +47,6 @@ const groupedSkills = MySkills.reduce((acc, skill) => {
             {skills.map((skill, index) => (
               <li key={index} className="skill-item">
                 <span className="skill-name">{skill.name}</span>
-                <span className="skill-exp">{skill.Exp}</span>
               </li>
             ))}
           </ul>
