@@ -1,0 +1,96 @@
+/* Overall Section */
+.education-section {
+  padding: 80px 20px;
+  font-family: 'Poppins', sans-serif;
+    animation: fadeIn 1.5s forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.education-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffd700;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Education Cards Container */
+.education-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  padding: 0 10px;
+}
+
+/* Single Education Card */
+.education-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 40px 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    min-width: 342px;
+}
+
+.education-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Header Styling */
+.card-header {
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 20px;
+}
+
+.degree {
+  font-size: 24px;
+  font-weight: 600;
+  color: #007bff;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.school {
+  font-size: 18px;
+  color: #555;
+  font-style: italic;
+}
+
+/* Card Footer Styling */
+.card-footer {
+  margin-top: 20px;
+}
+
+.duration {
+  font-size: 16px;
+  color: #777;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .education-title {
+    font-size: 36px;
+  }
+  .degree {
+    font-size: 22px;
+  }
+  .school {
+    font-size: 16px;
+  }
+  .duration {
+    font-size: 14px;
+  }
+}

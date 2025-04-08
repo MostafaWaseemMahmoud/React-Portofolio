@@ -61,7 +61,7 @@
   }
   
   body {
-    background-color: var(--color-bg);
+    background-color: #022c43;
     color: var(--color-paragraph);
     line-height: 1.65;
     font-size: var(--font-base-size);
@@ -173,5 +173,10 @@
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: italic;
+  }
+
+  .content {
+    min-width: calc(100% - 70px);
+    margin-left: 70px;
   }
   

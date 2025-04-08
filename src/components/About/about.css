@@ -1,0 +1,53 @@
+.about-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 200px 100px 100px 100px;
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.left-side {
+  width: 55%;
+}
+
+.a-heading {
+  color: #ffd700;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.a-description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #f0f0f0;
+  margin-bottom: 15px;
+}
+
+.right-side {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.profile-pic {
+min-width: 365px;
+    height: 504px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,47 @@
+.contact-card {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #fdfdfd;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  transition: transform 0.3s ease;
+    animation: fadeIn 1.5s forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-card h1 {
+  color: #222;
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+.contact-card p {
+  font-size: 1.1rem;
+  margin: 15px 0;
+}
+
+.contact-card a {
+  color: #0077b5;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-card a:hover {
+  color: #004471;
+}
