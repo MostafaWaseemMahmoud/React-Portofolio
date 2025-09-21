@@ -1,5 +1,4 @@
-import React from 'react';
-import './project.css'
+import './project.css';
 const Projects = ()=> {
   return (
         <div className="projects">
@@ -27,7 +26,7 @@ const Projects = ()=> {
                   <i className="fa-brands fa-github"></i>
                   </a>
                   <a target='_blank' href="https://lumeo-e-commerce.vercel.app/">
-                    <i className="fa-solid fa-life-ring"></i>   
+                    <i className="fa-solid fa-life-ring"></i>
                   </a>
                   </h3>
                   <h3>
@@ -56,7 +55,7 @@ const Projects = ()=> {
                   <i class="fa-brands fa-github"></i>
                   </a>
                   <a target='_blank' href="https://prescripto-a.netlify.app">
-                    <i class="fa-solid fa-life-ring"></i>   
+                    <i class="fa-solid fa-life-ring"></i>
                   </a>
                   </h3>
                   <h3>
@@ -123,7 +122,7 @@ const Projects = ()=> {
               </div>
               <div className="card-txt">
                 <div className="title">
-                  <h1>Kovid-19 Application</h1>
+                  <h1>Covid-19 Application</h1>
                 </div>
                 <div className="card-description">
                   <p>(React, Css, ReactIcons)</p>
@@ -135,7 +134,7 @@ const Projects = ()=> {
                   </a>
                   </h3>
                   <h3>
-                    <a target='_blank' href="https://kovid-app.netlify.app/">
+                    <a target='_blank' href="https://kovid19-app.netlify.app/">
                     <i class="fa-solid fa-life-ring"></i></a>
                   </h3>
                   </div>
