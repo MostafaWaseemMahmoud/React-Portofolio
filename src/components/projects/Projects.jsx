@@ -67,31 +67,6 @@ const Projects = ()=> {
 
         <div className="card project-card">
               <div className="card-img">
-                <img src="https://i.ibb.co/P5z4rPt/Chat-Application.png" alt="" />
-              </div>
-              <div className="card-txt">
-                <div className="title">
-                  <h1>Chat Application</h1>
-                </div>
-                <div className="card-description">
-                  <p>(HTML,CSS,VanillaJs)</p>
-                  <p>(NodeJs,Express,MongoDB)</p>
-                  <div className="links">
-
-                  <h3>
-                  <a target='_blank' href="https://youtu.be/gAKsZvU4G-g?si=yPN4eXEhEYLnBD63">
-                  <i class="fa-brands fa-youtube"></i>
-                  </a>
-                  </h3>
-                  <h3>
-                  </h3>
-                  </div>
-                </div>
-              </div>
-          </div>
-
-        <div className="card project-card">
-              <div className="card-img">
                 <img src="https://i.ibb.co/sWmkY3p/Socail-Media-Application.png" alt="" />
               </div>
               <div className="card-txt">
