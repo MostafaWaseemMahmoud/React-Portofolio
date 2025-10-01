@@ -49,7 +49,7 @@ max-width: 155px;
 ;
     align-items: center;
     justify-content: center;
-    background-image: url(/src/components/Home/Personal_Pic.jpg);
+    background-image: url(/Personal_Pic.jpg);
     background-position-y: center;
     background-position-x: center;
     background-size: cover;
