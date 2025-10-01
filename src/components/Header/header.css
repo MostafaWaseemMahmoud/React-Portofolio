@@ -1,0 +1,116 @@
+header {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #4D4D4D;
+  padding-bottom: 12px;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+header nav {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul li .link {
+  color: #D1D1D1;
+  cursor: pointer;
+  transition: .5s;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header nav ul li .link:hover {
+  color:#fff;
+}
+
+header nav ul li .link.active {
+  color: #fff;
+}
+
+header nav ul li {
+  display:inline-flex;
+  margin-right: 50px;
+}
+
+header nav ul {
+  display:inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* 673 */
+@media screen and (max-width: 673px) {
+  header {
+
+    display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #4D4D4D;
+    padding-bottom: 12px;
+    margin-right: 0;
+    padding-right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #272727;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 4;
+  }
+
+  header nav ul li {
+    display: inline-flex
+;
+    margin-right: 29px;
+}
+
+ main {
+  margin-top: 0;
+ }
+}
+@media screen and (max-width: 536px) {
+  header nav ul li {
+
+        display: inline-flex
+;
+        margin-right: 9px;
+
+}
+}
+
+@media screen and (max-width: 428px) {
+  header nav ul li {
+
+        display: inline-flex
+;
+        margin-right: 9px;
+
+}
+
+.name {
+      font-size: 20px;
+}
+}
+
+@media screen and (max-width: 372px) {
+.name {
+      display: none;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  header nav ul li {
+
+        display: inline-flex
+;
+        margin-right: 11px;
+
+}
+}

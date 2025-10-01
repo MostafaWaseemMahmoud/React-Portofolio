@@ -1,4 +1,33 @@
-.container {
-    margin: var(--padding);
-    display: flex;
+.app {
+    background-color: #272727;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    color: white;
+    padding-left: 366px;
+    padding-right: 366px;
+    padding-top: 50px;
+}
+
+/* D1D1D1 */
+
+@media screen and (max-width: 1622px) {
+    .app {
+            padding-left: 200px;
+    padding-right: 200px;
+    }
+}
+
+@media screen and (max-width: 1294px) {
+    .app {
+            padding-left: 100px;
+    padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 964px) {
+    .app {
+            padding-left: 40px;
+    padding-right: 40px;
+    }
 }
