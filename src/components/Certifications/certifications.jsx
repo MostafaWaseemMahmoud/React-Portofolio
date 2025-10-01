@@ -1,4 +1,4 @@
-import './certifications.css';
+import './Certifications.css';
 
 const Certifications = () => {
   return (
